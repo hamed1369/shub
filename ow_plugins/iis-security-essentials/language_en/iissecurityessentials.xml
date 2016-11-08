@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iissecurityessentials" label="iissecurityessentials" language_tag="en" language_label="English">
+	<key name="idle_time_label">
+        <value>Idle Time (.min)</value>
+    </key>
+    <key name="settings_successfuly_saved">
+        <value>Settings successfuly saved</value>
+    </key>
+	
+	<key name="status_field_ownUser">
+        <value>
+            What's Up?
+        </value>
+    </key>
+	<key name="status_field_otherUser">
+        <value>
+            Messeage to {$username}
+        </value>
+    </key>
+	<key name="status_field_invintation">
+        <value>
+             What's Up?
+        </value>
+    </key>
+	
+    <key name="change_privacy_label">
+        <value>
+            Privacy
+        </value>
+    </key>
+    <key name="change_privacy_of_album_label">
+        <value>
+            Privacy of album
+        </value>
+    </key>
+    <key name="change_privacy_description">
+        <value>
+            Show information to:
+        </value>
+    </key>
+    <key name="submit">
+        <value>
+            submit
+        </value>
+    </key>
+    <key name="privacy_successfuly_changed">
+        <value>
+            Privacy successfuly changed.
+        </value>
+    </key>
+    <key name="privacy_not_changed">
+        <value>
+            You cant change Privacy of this information.
+        </value>
+    </key>
+    <key name="my_post_on_feed_newsfeed">
+        <value>
+            Default my posts
+        </value>
+    </key>
+    <key name="other_post_on_feed_newsfeed">
+        <value>
+            The default post written by others for me
+        </value>
+    </key>
+    <key name="last_post_of_others_newsfeed">
+        <value>
+Last posts of other on profile
+        </value>
+    </key>
+    <key name="last_post_of_myself_newsfeed">
+        <value>
+            Last posts of myself on profile
+        </value>
+    </key>
+    <key name="who_post_on_newsfeed">
+        <value>
+            Who can post on my feed
+        </value>
+    </key>
+    <key name="show_to_everybody">
+        <value>
+            Show to everybody
+        </value>
+    </key>
+    <key name="show_to_friends">
+        <value>
+            Show to friends of {$username}
+        </value>
+    </key>
+    <key name="show_to_user">
+        <value>
+            Show to {$username}
+        </value>
+    </key>
+    <key name="photo_default_privacy">
+        <value>
+            efault of my photos
+        </value>
+    </key>
+    <key name="video_default_privacy">
+        <value>
+            Default of my videos
+        </value>
+    </key>
+    <key name="view_user_comment_widget">
+        <value>
+            View profile user comment widget (It is not recommended)
+        </value>
+    </key>
+    <key name="verify_later">
+        <value>
+            I will be confirmed later.
+        </value>
+    </key>
+    <key name="verify_using_code">
+        <value>
+            Account activation via the verification code that has been sent 
+        </value>
+    </key>
+    <key name="verify_using_resend_email">
+        <value>
+            Return to resend verification code form
+        </value>
+    </key>
+    <key name="last_post_of_myself_newsfeed_description">
+        <value>
+            by modification of this option, the access right for all your previous posts in your profile will be changed
+        </value>
+    </key>
+    <key name="last_post_of_others_newsfeed_description">
+        <value>
+            by modification of this option, the access right for all other previous posts in your profile will be changed
+        </value>
+    </key>
+    <key name="general_setting">
+        <value>
+            General setting
+        </value>
+    </key>
+    <key name="privacy_setting">
+        <value>
+            Privacy setting
+        </value>
+    </key>
+    <key name="privacy_setting_description">
+        <value>
+            You can set the default value of privacy items here. Also users can set value of these items for themselves.
+        </value>
+    </key>
+    <key name="privacy_value_empty">
+        <value>
+            You don't set the default value of this item.
+        </value>
+    </key>
+    <key name="plugin_privacy_not_exist_description">
+        <value>
+            Plugin of privacy does not exist. For managing the privacy of contents, you should install the privacy plugin.
+        </value>
+    </key>
+    <key name="index_status_enabled_desc">
+        <value>
+            This option is disabled because of security issues
+        </value>
+    </key>
+    <key name="admin_page_heading">
+        <value>
+            Security essentials plugin
+        </value>
+    </key>
+    <key name="admin_page_title">
+        <value>
+            Security essentials plugin
+        </value>
+    </key>
+</prefix>

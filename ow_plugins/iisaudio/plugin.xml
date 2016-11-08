@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+    <name>صدا</name>
+    <key>iisaudio</key>
+    <description>کاربران توانایی ارسال پیام صوتی در داشبورد خود را دارند</description>
+    <author>Milad Heshmati</author>
+    <authorEmail>milad.heshmati@gmail.com</authorEmail>
+    <authorUrl>http://www.iiscenter.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10800</build>
+    <copyright>(C) 2016 IIS center. All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+</plugin>

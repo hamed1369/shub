@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iismobilesupport" label="iismobilesupport" language_tag="en" language_label="English">
+	<key name="admin_save_settings"><value>Save Settings</value></key>
+	<key name="admin_settings_title"><value>Admin mobile support - Settings</value></key>
+	<key name="user_save_success"><value>Settings saved successfully</value></key>
+	<key name="fcm_api_key_label"><value>FCM key for sending notification</value></key>
+	<key name="fcm_api_url_label"><value>FCM Url for sending notification</value></key>
+    <key name="constraint_user_device_label"><value>The number of user apps(Min: 2, Max: 999)</value></key>
+    <key name="android_app_label"><value>Android Application</value></key>
+    <key name="ios_app_label"><value>iOS Application</value></key>
+</prefix>

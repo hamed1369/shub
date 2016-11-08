@@ -1,0 +1,10 @@
+{if isset($empty_list) &&  $empty_list}
+{text key="iismutual+empty_list"}
+{else}
+<h1 class="ow_stdmargin ow_ic_user">
+    {text key="iismutual+main_menu_item"}
+</h1>
+<div class="ow_lp_avatars">
+    {$userList}
+</div>
+{/if}

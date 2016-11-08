@@ -1,0 +1,14 @@
+#toTop {
+	display: none;
+	position: fixed;
+	width: 35px;
+	height: 35px;
+	border: none;
+	font-size: 0px;
+	background: url(../img/ui.totop.png);
+	background-repeat: no-repeat;
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}

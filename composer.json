@@ -1,0 +1,14 @@
+{
+  "config": {
+    "vendor-dir": "ow_libraries/vendor"
+  },
+  "require": {
+    "smarty/smarty": "~3.1",
+    "phpmailer/phpmailer": "~5.2",
+    "zendframework/zend-escaper": "^2.5",
+    "robmorgan/phinx": "v0.5.1",
+    "phpunit/phpunit": "v4.8.*",
+    "phpunit/phpunit-selenium": "2.0.0",
+    "guzzlehttp/guzzle": "~6.2"
+  }
+}

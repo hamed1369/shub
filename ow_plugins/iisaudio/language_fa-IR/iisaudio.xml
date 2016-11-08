@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisaudio" label="iisaudio" language_tag="fa-IR" language_label="فارسی">
+    <key name="main_menu_item">
+        <value>
+            صدا
+        </value>
+    </key>
+    <key name="database_record_deleted">
+        <value>
+            فایل صوتی حذف شد.
+        </value>
+    </key>
+    <key name="audio_creator">
+        <value>
+            توسط
+        </value>
+    </key>
+    <key name="delete_item_warning">
+        <value>
+            آیا از حذف این فایل صوتی مطمئن هستید؟
+        </value>
+    </key>
+    <key name="Audio_inserterd">
+        <value>
+            صدا افزوده شد.
+        </value>
+    </key>
+    <key name="feed_item_line">
+        <value>
+            یک فایل صوتی اضافه کرد.
+        </value>
+    </key>
+    <key name="Audio_not_inserterd">
+        <value>
+            افزودن صدا با خطا مواجه شده است.
+        </value>
+    </key>
+    <key name="delete_audio_item">
+        <value>
+            حذف
+        </value>
+    </key>
+    <key name="Audio_inserterd">
+        <value>
+            صدا افزوده شد.
+        </value>
+    </key>
+    <key name="description_audio_page">
+        <value>
+            لیست صداهای شما
+        </value>
+    </key>
+    <key name="audionamefield">
+        <value>
+            نام:
+        </value>
+    </key>
+    <key name="floatboxname">
+        <value>
+            ضبط صدا
+        </value>
+    </key>
+    <key name="Record">
+        <value>
+            ضبط
+        </value>
+    </key>
+    <key name="Pause">
+        <value>
+            توقف
+        </value>
+    </key>
+    <key name="Recording">
+        <value>
+            در حال ضبط صدا...
+        </value>
+    </key>
+    <key name="Converting">
+        <value>
+            در حال ذخیره. لطفا صبر کنید...
+        </value>
+    </key>
+    <key name="index_page_heading">
+	<value>
+	صدا
+	</value>
+    </key>
+    <key name="index_page_title">
+	<value>
+	صدا
+	</value>
+    </key>
+</prefix>

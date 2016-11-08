@@ -1,0 +1,45 @@
+{style}
+{literal}
+.owm_forum_page .owm_context_action_list_item .owm_context_action_list_item_c > span {
+display:block;
+}
+{/literal}
+{/style}
+
+<div class="owm_iisnews_page owm_iisnews_section">
+
+    <div class="owm_std_margin_bottom">
+
+        {foreach from=$list item='entry'}
+        {assign var=dto value=$entry.dto}
+        {assign var=userId value=$dto->getAuthorId()}
+        <div class="owm_iisnews_preview">
+            <div class="owm_list_section_body owm_bg_color_1 owm_padding">
+                <div class="owm_float_right">
+                    <a class="owm_nav_cap_right" href="{$entry.url}"></a>
+                </div>
+                <a class="owm_list_title_format owm_list_title_unread" href="{$entry.url}">
+                    <div class="owm_list_title_name owm_small_margin_bottom">
+                        <div>{$dto->getTitle()}</div>
+                    </div>
+                </a>
+                <div class="owm_list_body_body">
+                    {$entry.text}{if $entry.showMore}... <a class="ow_lbutton" href="{$entry.url}">{text key='iisnews+more'}</a>{/if}
+                    {assign var='id' value=$dto->getId()}
+                </div>
+            </div>
+            <div class="owm_list_section_toolbar owm_border owm_bg_color_3">
+                <div class="owm_padding owm_list_additional_info">
+                    <div class="owm_list_additional_item owm_list_additional_comments">{$entry.countOfComment}</div>
+                    <span>{text key='forum+by'} <a href="{$entry.authorUrl}">{$entry.authorName}</a></span>
+                    <div class="owm_list_additional_item owm_list_additional_date">{$dto->getTimestamp()}</div>
+                </div>
+            </div>
+        </div>
+
+        {foreachelse}
+            {text key='base+empty_list'}
+        {/foreach}
+        {if $paging}<center>{$paging}</center>{/if}
+    </div>
+</div>

@@ -1,0 +1,52 @@
+.iisaudio_mic{
+    background-size: 20px !important;
+    background-repeat: no-repeat;
+    background-size: 20px !important;
+    cursor: pointer;
+    float: right;
+    height: 22px;
+    overflow: hidden;
+    text-decoration: none;
+    width: 22px;
+}
+
+canvas{
+    display: block;
+}
+
+.audio_item_player {
+    width: 100%;
+}
+
+.audio_item {
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 1px lightgray;
+    margin-bottom: 20px;
+}
+
+.audio_item_name {
+    text-align: left;
+}
+
+.audio_item_name:lang(fa-IR) {
+    text-align: right;
+}
+
+.audio_item_details {
+    text-align: right;
+}
+
+.audio_item_details:lang(fa-IR) {
+    text-align: left;
+}
+
+.audio_item_delete{
+    cursor: pointer;
+}
+.audio_level{
+    height: 100px;
+    display: inline-block;
+    text-align:center;
+    width: 100%;
+}

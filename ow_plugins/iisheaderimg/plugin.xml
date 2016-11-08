@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+    <name>تغییر عکس هدر</name>
+    <key>iisheaderimg</key>
+    <description>در این افزونه به ازای هر صفحه یک عکس هدر خاص نمایش داده می شود. همچنین در صفحه اصلی اسلایدشو نمایش داده می شود.</description>
+    <author>Samra</author>
+    <authorEmail></authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10800</build>
+    <copyright>All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+</plugin>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="mobile" label="mobile" language_tag="fa-IR" language_label="فارسی">
+    <key name="mobile_admin_navigation">
+        <value>
+            منو موبایل
+        </value>
+    </key>
+    <key name="mobile_admin_pages_index">
+        <value>
+            صفحه اصلی
+        </value>
+    </key>
+    <key name="mobile_admin_pages_dashboard">
+        <value>
+            داشبورد
+        </value>
+    </key>
+    <key name="mobile_admin_settings">
+        <value>
+            تنظیمات
+        </value>
+    </key>
+    <key name="admin_nav_top_section_label">
+        <value>
+            منو بالا
+        </value>
+    </key>
+    <key name="admin_nav_bottom_section_label">
+        <value>
+            منو پایین
+        </value>
+    </key>
+    <key name="admin_nav_new_item_label">
+        <value>
+            صفحه جدید
+        </value>
+    </key>
+    <key name="admin_nav_hidden_section_label">
+        <value>
+            پنهان
+        </value>
+    </key>
+    <key name="admin_widgets_main_section_label">
+        <value>
+            محتوا
+        </value>
+    </key>
+    <key name="widgets_admin_index_heading">
+        <value>
+            صفحه اصلی موبایل
+        </value>
+    </key>
+    <key name="widgets_admin_dashboard_heading">
+        <value>
+            داشبورد کاربر
+        </value>
+    </key>
+    <key name="admin_widgets_main_section_label">
+        <value>
+            محتوا
+        </value>
+    </key>
+    <key name="admin_widgets_hidden_section_label">
+        <value>
+            پنهان
+        </value>
+    </key>
+    <key name="mobile_pages_dashboard">
+        <value>
+            داشبورد
+        </value>
+    </key>
+    <key name="page_default_heading">
+        <value>
+            {$site_name}
+        </value>
+    </key>
+    <key name="view_profile">
+        <value>
+            نمایه من
+        </value>
+    </key>
+    <key name="sign_out">
+        <value>
+            خروج
+        </value>
+    </key>
+    <key name="about">
+        <value>
+            درباره
+        </value>
+    </key>
+	 <key name="mobile_join_promo">
+        <value>
+            به شبکه رو به رشد ما بپیوندید. دوستان جدید بیابید، در جامعه مجازی رتبه خود را بالا ببرید، تصاویر و ویدیو به اشتراک بگذارید و لذت ببرید. 
+        </value>
+    </key>
+	 <key name="right_sidebar_guest_heading">
+        <value>
+            لطفا وارد شوید
+        </value>
+    </key>
+    <key name="page_default_title">
+        <value>
+            {$site_name}
+        </value>
+    </key>
+	<key name="page_is_not_available">
+        <value>
+            صفحه مورد نظر در نسخه موبایل قابل مشاهده نیست، لطفا نسخه رومیزی وب‌گاه را مشاهده کنید.
+        </value>
+    </key>
+</prefix>

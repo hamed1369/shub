@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+    <name>پیشنهاد دوست به کاربران</name>
+    <key>iissuggestfriend</key>
+    <description>این افزونه به کاربران در صفحه داشبورد خود، افرادی را برای دوست شدن پیشنهاد می‌کند.</description>
+    <author>Yaser Alimardany</author>
+    <authorEmail>yaser.alimardany@gmail.com</authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10800</build>
+    <copyright>All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+</plugin>

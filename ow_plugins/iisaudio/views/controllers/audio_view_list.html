@@ -1,0 +1,18 @@
+<h1>
+    {text key="iisaudio+description_audio_page"}
+</h1>
+<div class="ow_form ow_stdmargin">
+    {foreach from=$list item="listItem"}
+    <div class="audio_item">
+        <div class="audio_item_name">{text key="iisaudio+audionamefield"} {$listItem.title}</div>
+        <audio controls src="{$listItem.audioUrl}" id="audio" class="audio_item_player"></audio>
+        <div class="audio_item_details">{$listItem.addDateTime}
+            ({text key="iisaudio+audio_creator"} <a href="{$listItem.autherUrl}" class="coverphoto-author">{$listItem.autherName}</a>)
+            <a class="audio_item_delete" onclick="{$listItem.deleteUrl}">{text key="iisaudio+delete_audio_item"}</a>
+        </div>
+    </div>
+    {/foreach}
+    {if $paging}
+    <center>{$paging}</center>
+    {/if}
+</div>
