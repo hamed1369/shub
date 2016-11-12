@@ -1,1 +1,0 @@
-#IIS Advance Search plugin.

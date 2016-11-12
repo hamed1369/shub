@@ -1,5 +1,0 @@
-<?php
-
-/**
- * IIS Advance Search
- */

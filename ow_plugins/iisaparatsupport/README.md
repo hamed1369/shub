@@ -1,1 +1,0 @@
-iisaparatsupport plugin for Motoshub.
