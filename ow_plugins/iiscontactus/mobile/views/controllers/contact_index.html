@@ -1,0 +1,75 @@
+{style}
+{literal}
+table.ow_table_1 td.ow_label
+{
+    width: 35%;
+}
+
+.contactus_widget{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.contactus_img img{
+	height: auto;
+	max-width: 100%;
+}
+
+@media (max-width: 767px) {
+
+	.contactus_img{
+		display: none;
+	}
+}
+
+{/literal}
+{/style}
+<div class="ow_box_empty ow_superwide ow_automargin ow_no_cap ow_break_word">
+	{if isset($adminComment)}
+		{$adminComment}
+	{/if}
+</div>
+<div class="ow_box_empty ow_column contactus_widget">
+	{form name='contact_form'}
+	<table class="ow_table_1 ow_form st_table_3" style="margin: 30px 0px 0px 0px;">
+	    <tr class="ow_alt1 ow_tr_first">
+			<td class="ow_label">{label name='to'}</td>
+			<td class="ow_value">{input name='to'}{error name='to'}</td>
+		</tr>
+{if $isAuthenticated==false }
+		<tr class="ow_alt2">
+		<td class="ow_label">{label name='from'}</td>
+		<td class="ow_value">{input name='from'}{error name='from'}</td>
+		</tr>
+	{/if}
+	    <tr class="ow_alt1">
+			<td class="ow_label">{label name='subject'}</td>
+			<td class="ow_value">{input name='subject'}{error name='subject'}</td>
+		</tr>
+	{if isset($captcha_present)}
+	    <tr class="ow_alt2">
+	{else}
+	    <tr class="ow_alt2  ow_tr_last">
+	{/if}
+			<td class="ow_label">{label name='message'}</td>
+			<td class="ow_value">{input name='message'}{error name='message'}</td>
+		</tr>
+	{if isset($captcha_present)}
+	    <tr class="ow_alt1 ow_tr_last">
+			<td class="ow_label">{label name='captcha'}</td>
+			<td class="ow_value ow_center">{input name='captcha'}{error name='captcha'}</td>
+		</tr>
+	{/if}
+	<tr>
+		<td>&nbsp;</td>
+		<td>
+			{submit name='send' class='ow_button ow_ic_mail'}
+		</td>
+	</tr>
+	</table>
+	{/form}
+</div>
+<div class="ow_box_empty ow_column contactus_widget contactus_img">
+	<img src="{$backgroundImage}" class="contactus_bg" />
+</div>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisvideoplus" label="iisvideoplus" language_tag="en" language_label="English">
+    <key name="latest_friends">
+        <value>
+            Latest video of friends
+        </value>
+    </key>
+    <key name="meta_description_video_latest_friends">
+        <value>
+            You can see videos of your friend here.
+        </value>
+    </key>
+    <key name="meta_title_video_add_latest_friends">
+        <value>
+            Latest video of friends
+        </value>
+    </key>
+	<key name="latest_myvideo">
+        <value>
+             my videos
+        </value>
+    </key>
+	<key name="meta_title_video_add_latest_myvideo">
+        <value>
+            my videos
+        </value>
+    </key>
+	<key name="meta_description_video_latest_myvideo">
+        <value>
+             You can see videos of yours here.
+        </value>
+    </key>
+</prefix>

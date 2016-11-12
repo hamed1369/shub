@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+    <name>شرایط</name>
+    <key>iisterms</key>
+    <description>        امکان ایجاد موارد دلخواه برای سه صفحه از پیش طراحی‌شده شرایط استفاده از خدمات، حفظ حریم خصوصی و سوالات متداول. همچنین، مدیر توانایی ایجاد دو صفحه دلخواه دیگر را هم دارد.</description>
+    <author>Yaser Alimardany</author>
+    <authorEmail>yaser.alimardany@gmail.com</authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10800</build>
+    <copyright>All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+</plugin>

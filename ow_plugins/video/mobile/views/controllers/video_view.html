@@ -1,0 +1,28 @@
+<div class="owm_video_view">
+	<div class="owm_box owm_video_player" style="margin-top:10px">
+		{component class='VIDEO_MCMP_VideoPlayer' id=$clip->id}
+
+	   	<div class="owm_video_description">{$clip->description}</div>
+
+		<div class="owm_video_additional_info">
+			<div>
+				<span class="owm_label">{text key='base+by'}</span>
+				{if $username && $displayName}{user_link username=$username name=$displayName}{else}{$displayName}{/if}
+			</div>
+			<div>
+				{if isset($item.privacy_label)}{if isset($item.privacy_label.onClick)}<a class="privacy_label" id="{$item.privacy_label.id}" href="{$item.privacy_label.onClick}">{/if}<img class="ow_nowrap create_time ow_newsfeed_date ow_small feed_image_privacy owm_float_right" src="{$item.privacy_label.imgSrc}" title="{$item.privacy_label.label}" />{if isset($item.privacy_label.onClick)}</a>{/if}{/if}
+				<span class="owm_label">{text key='video+added'}</span>
+				{format_date timestamp=$clip->addDatetime}
+			</div>
+			<div>
+				{add_content key='socialsharing.get_sharing_buttons' title=$clip->title description=$clip->description entityType='video' entityId=$clip->id}
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="owm_box">{$comments}</div>
+	{component class='VIDEO_MCMP_OtherVideoList' exclude=$clip->id itemsNum=3}
+</div>

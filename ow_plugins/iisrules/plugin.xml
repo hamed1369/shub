@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+    <name>توصیه‌ها</name>
+    <key>iisrules</key>
+    <description>در این افزونه مدیر می‌تواند توصیه‌ها و الزامات موردنیاز را وارد نماید</description>
+    <author>Yaser Alimardany</author>
+    <authorEmail>yaser.alimardany@gmail.com</authorEmail>
+    <authorUrl>http://shub.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10800</build>
+    <copyright>All rights reserved.</copyright>
+    <license>shub.ir</license>
+    <licenseUrl>http://shub.ir</licenseUrl>
+</plugin>

@@ -1,0 +1,128 @@
+#search_content {
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+#search_input_item {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+}
+
+#div_result_search_items {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.result_search_item {
+    display: inline-block;
+    width: 100%;
+    border-bottom: solid 1px lightgray;
+}
+
+.result_search_item span{
+    padding: 10px;
+}
+
+.result_search_item img {
+    margin: 5px;
+    max-width: 35px;
+}
+
+div#div_result_search_users_items {
+    border-left: solid 1px lightgray;
+}
+
+div#div_result_search_forums_items {
+    border-right: solid 1px lightgray;
+}
+
+div#search_input_content {
+    padding-bottom: 10px;
+    border-bottom: solid 1px lightgray;
+}
+
+div#search_input_content span{
+    border: 1px solid #ccd6de;
+    padding: 4.5px;
+    background-color: #ccd6de;
+    color: black;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+
+    position: relative;
+    margin: 100px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #333;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+div#search_input_content {
+    text-align: center;
+}
+
+@-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 50% {
+          transform: scale(1.0);
+          -webkit-transform: scale(1.0);
+      }
+}
+
+.result_search_item_title {
+    margin-top: 10px;
+    background-color: lightgray;
+    padding: 6px;
+}
+
+a.ow_ic_lens.console_item_search {
+    background-repeat: no-repeat;
+    font-size: 0px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+@media (max-width: 990px) {
+    div#div_result_search_users_items,
+    div#div_result_search_forums_items{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 480px) {
+    div#search_input_content span{
+        display: none;
+    }
+}

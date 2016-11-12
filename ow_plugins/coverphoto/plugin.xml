@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+    <name>عکس سرصفحه</name>
+    <key>coverphoto</key>
+    <description>کاربران در نمایه خود توانایی مدیریت کردن عکس سرصفحه خود را دارند</description>
+    <author>Yaser Alimardany</author>
+    <authorEmail>yaser.alimardany@gmail.com</authorEmail>
+    <authorUrl>http://www.iiscenter.ir</authorUrl>
+    <developerKey>1</developerKey>
+    <build>10800</build>
+    <copyright>All rights reserved.</copyright>
+    <license>asdasdasd</license>
+    <licenseUrl>adasdasdasds</licenseUrl>
+</plugin>

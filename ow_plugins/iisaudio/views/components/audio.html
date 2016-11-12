@@ -1,0 +1,33 @@
+<h1>{text key="iisaudio+floatboxname"}</h1>
+
+{form name="add_audio_form"}
+
+<div style="margin:10px;text-align: center;">
+
+    <div class="recorder">
+        <input type="button" class="start"  value={text key="iisaudio+Record"} />
+        <input type="button" class="stop" value={text key="iisaudio+Pause"} />
+        <pre class="status"></pre>
+    </div>
+
+    <audio class="audio_item_player" controls src="" id="audio"></audio>
+    <table class="ow_table_1 ow_form">
+        <tr>
+            <td class="ow_label">{label name='name'}</td>
+            <td class="ow_value">{input name='name'}{error name='name'}</td>
+        </tr>
+        {if isset($statusPrivacy)}
+        <tr>
+            <td class="ow_label">{label name='statusPrivacy'}</td>
+            <td class="ow_value">{input name='statusPrivacy'}{error name='statusPrivacy'}</td>
+        </tr>
+        {/if}
+        <tr class="ow_tr_last ow_center">
+            <td colspan="2">
+                {submit name='submit' class='ow_ic_add ow_positive'}
+            </td>
+        </tr>
+    </table>
+</div>
+
+{/form}

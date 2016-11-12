@@ -1,0 +1,9 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+
+# Keep an empty temp directory
+!temp/
+temp/*
+!temp/.gitkeep

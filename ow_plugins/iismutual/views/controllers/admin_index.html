@@ -1,0 +1,37 @@
+{*
+
+/**
+* Copyright (c) 2016, Yaser Alimardany
+* All rights reserved.
+*/
+
+*}
+
+<table class="ow_table_1 ow_form">
+    <tbody>
+    {form name="settings"}
+    <table class="ow_table_1 ow_form">
+        <tbody>
+        <tr>
+            <th colspan="2">
+                {text key="iismutual+number_of_mutual_friends_setting"}
+            </th>
+        </tr>
+        <tr class="ow_alt2">
+            <td width="1" class="ow_label">
+                {label name='numberOfMutualFriends'}
+            </td>
+            <td class="ow_value">
+                {input name='numberOfMutualFriends'}
+                {error name='numberOfMutualFriends'}
+            </td>
+        </tr>
+        <tr class="ow_tr_last ow_center">
+            <td colspan="2">
+                {submit name='save'}
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    {/form}
+</table>

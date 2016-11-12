@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefix name="iisphotoplus" label="iisphotoplus" language_tag="fa-IR" language_label="فارسی">
+    <key name="photo_friends">
+        <value>
+            تصاویر دوستان
+        </value>
+    </key>
+    <key name="meta_description_photo_friends">
+        <value>
+            می توانید تصاویر دوستان خود را در این صفحه مشاهده کنید.
+        </value>
+    </key>
+    <key name="meta_title_photo_add_friends">
+        <value>
+            تصاویر دوستان
+        </value>
+    </key>
+     <key name="latest_publicphoto">
+        <value>
+             تصاویر عمومی
+        </value>
+    </key>
+	<key name="meta_title_photo_add_publicphoto">
+        <value>
+            تصاویرعمومی
+        </value>
+    </key>
+	<key name="meta_description_photo_publicphoto">
+        <value>
+         می توانید تصاویر عمومی را در این صفحه مشاهده کنید.
+        </value>
+    </key>
+    <key name="meta_title_photo_photo_friends">
+        <value>تصاویر دوستان - {$site_name}</value>
+    </key>
+    <key name="list_type_label_photo_friends">
+        <value>تصاویر دوستان </value>
+    </key>
+
+</prefix>
