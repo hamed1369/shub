@@ -1,3 +1,7 @@
 component_depth: 1
 languages:
 - php
+
+test:
+    include:
+        - */.*Test.php
