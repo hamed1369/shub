@@ -1,4 +1,0 @@
-
-test:
-    include:
-        - .*/ow_unittest/*Test.php
