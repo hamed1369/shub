@@ -1,10 +1,4 @@
-component_depth: 1
-languages:
-- php
-production:
-	exclude:
-		- .*Test.php
+
 test:
-	include:
-		- /ow_unittest
-		- .*Test.php
+    include:
+        - .*/ow_unittest/*Test.php
