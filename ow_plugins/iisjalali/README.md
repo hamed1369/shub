@@ -1,1 +1,0 @@
-Jalali plugin for Motoshub
