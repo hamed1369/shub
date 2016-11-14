@@ -4,4 +4,4 @@ languages:
 
 test:
     include:
-        - */.*Test.php
+        - .*/ow_unittest/.*Test.php
